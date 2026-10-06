@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naveen University Website Design - by G.Naveen</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo.png" alt="University Logo"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" on click="hidemenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -19,6 +22,7 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" on click="hidemenu()"></i>></i>
         </nav>
 
 <div class="text-box">
@@ -28,6 +32,137 @@
     <a href="" class="hero-btn">Visit Us To Know More</a>
 </div>>
 
-    </section>
+</section>
+
+<!------------course--------------->
+
+<section class="course">
+    <h1>course we offer</h1>
+    <p>java, python, AI, SAP</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>knowledge is wealth</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>knowledge is wealth</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>knowledge is wealth</p>
+        </div>
+    </div>
+</section>
+
+<!------------campus------------->
+
+<section class="campus">
+    <h1>our global campus</h1>
+    <p>Education is most powerfull weapon</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png" alt="">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/sri lanka.png" alt="">
+            <div class="layer">
+                <h3>SRI LANKA</h3>
+            </div>
+            <div class="row">
+        <div class="campus-col">
+            <img src="images/INDIA.png" alt="">
+            <div class="layer">
+                <h3>INDIA</h3>
+            </div>
+</section>
+
+<!----------------Facilities--------------->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Our facilities is like luxury</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>world class library</h3>
+            <p>study and use our libray</p>
+        </div>
+        <div class="row">
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>study and use our libray</p>
+        </div>
+        <div class="row">
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty And Healthy Food</h3>
+            <p>study and use our libray</p>
+        </div>
+    </div>
+</section>
+
+<!---------------------------testimonials------------------------->
+
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>students are future of our world</p>
+    
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+            <p>If You Dream It. You Can Do It.</p>
+            <h3>karishma</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+            <p>If You Dream It. You Can Do It.</p>
+            <h3>daren</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+    </div>
+</div>
+</section>
+
+<!---------------------------Call To Action------------------------>
+
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses Anywhere From The World</h1>
+    <a href="">CONTACT US</a>
+</section>
+</section>
+
+<!--------------------java script for toggle menu-------------------->
+
+<script>
+    var navLinks=document.getElement.Id("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+     function showMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
 </body>
 </html>
